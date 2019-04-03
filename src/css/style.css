@@ -542,7 +542,7 @@ section {
   margin: 0px auto;
 }
 .blog .card {
-  padding: 0;
+  margin: 0;
   border: none;
   border-radius: 0px;
 }
