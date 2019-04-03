@@ -475,7 +475,8 @@ section {
           transform: rotate(-90deg);
 }
 .feedback {
-  background: url(../img/bg/bg-feedback.jpg);
+  background-image: url(../img/bg/bg-feedback.jpg);
+  background-size: cover;
 }
 .feedback-item {
   height: 220px;
