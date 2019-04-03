@@ -104,6 +104,19 @@
 			max-height: 1610px;
 		}
 	}
+	.testimonial{
+		.carousel{
+			&-item{
+				height: 200px;
+				&-avatar{
+					width: 180px;
+				}
+				&-content{
+					margin-top: 0;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 767px){
@@ -173,6 +186,15 @@
 			max-height: 1250px;
 		}
 	}
+	.testimonial{
+		.carousel{
+			&-item{
+				&-avatar{
+					display: none !important;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 575px){
@@ -208,6 +230,19 @@
 			max-height: 950px;
 		}
 	}	
+	.testimonial{
+		.carousel{
+			&-item{
+				&-content{
+					font-size: 16px;
+					line-height: 1.8rem;
+					.cite{
+						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 424px){
@@ -255,6 +290,20 @@
 	.quote{
 		.carousel{
 			height: 250px;
+		}
+	}
+	.testimonial{
+		.carousel{
+			&-item{
+				height: 190px;
+				&-content{
+					font-size: 14px;
+					line-height: 1.6rem;
+					.cite{
+						font-size: 20px;
+					}
+				}
+			}
 		}
 	}
 }

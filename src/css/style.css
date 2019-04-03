@@ -440,30 +440,23 @@ section {
 }
 .testimonial .carousel-item {
   height: 220px;
-  position: relative;
 }
 .testimonial .carousel-item-avatar {
   width: 210px;
-  position: absolute;
   border-radius: 50%;
 }
 .testimonial .carousel-item-content {
-  margin-left: 250px;
-  margin-top: 20px;
-  height: 210px;
-}
-.testimonial .carousel-item-content blockquote {
-  display: inline-block;
   font-style: italic;
   font-size: 18px;
   line-height: 2rem;
+  margin-top: 20px;
 }
-.testimonial .carousel-item-content cite {
+.testimonial .carousel-item-content .cite {
   font-family: 'Kaushan Script', cursive;
   color: #000000;
   font-size: 24px;
 }
-.testimonial .carousel-item-content cite::before {
+.testimonial .carousel-item-content .cite::before {
   content: '';
   display: block;
   width: 60px;

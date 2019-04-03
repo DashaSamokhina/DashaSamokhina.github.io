@@ -484,28 +484,21 @@ section {
 	}
 }
 
-.testimonial {
+.testimonial{
 	margin-top: 80px;
-	.carousel{		
+	.carousel{
 		&-item{
 			height: 220px;
-			position: relative;
 			&-avatar{
 				width: 210px;
-				position: absolute;
 				border-radius: 50%;
 			}
 			&-content{
-				margin-left: 250px;
-				margin-top: 20px;
-				height: 210px;
-				blockquote{
-				display: inline-block;
 				font-style: italic;
 				font-size: 18px;
 				line-height: 2rem;
-				}
-				cite{
+				margin-top: 20px;
+				.cite{
 					.handwriting();
 					color: @heading;
 					font-size: 24px;
@@ -516,7 +509,7 @@ section {
 						vertical-align: middle;
 					}
 				}
-			}			
+			}
 		}
 		&-control-prev{
 			img{
@@ -528,8 +521,54 @@ section {
 				transform: rotate(-90deg);
 			}
 		}
-	}	
+	}
 }
+// .testimonial {
+// 	margin-top: 80px;
+// 	.carousel{		
+// 		&-item{
+// 			height: 220px;
+// 			position: relative;
+// 			&-avatar{
+// 				width: 210px;
+// 				position: absolute;
+// 				border-radius: 50%;
+// 			}
+// 			&-content{
+// 				margin-left: 250px;
+// 				margin-top: 20px;
+// 				height: 210px;
+// 				blockquote{
+// 				display: inline-block;
+// 				font-style: italic;
+// 				font-size: 18px;
+// 				line-height: 2rem;
+// 				}
+// 				cite{
+// 					.handwriting();
+// 					color: @heading;
+// 					font-size: 24px;
+// 					&::before{
+// 						.hr();
+// 						display: inline-block;
+// 						margin-right: 10px;
+// 						vertical-align: middle;
+// 					}
+// 				}
+// 			}			
+// 		}
+// 		&-control-prev{
+// 			img{
+// 				transform: rotate(90deg);
+// 			}
+// 		}
+// 		&-control-next{
+// 			img{
+// 				transform: rotate(-90deg);
+// 			}
+// 		}
+// 	}	
+// }
 
 // what people say
 .feedback{
