@@ -209,7 +209,7 @@
 				padding-top: 20px;
 				height: 90px;
 				width: 75px;
-				top: 180px;
+				top: 170px;
 			}
 		}
 	}
@@ -307,6 +307,28 @@
 			}
 		}
 	}
+	.feedback{
+		&-item{
+			&-avatar{
+			width: 70px;
+			}
+			&-content{
+				margin-left: 100px;
+				cite{
+					line-height: 2rem;
+					.name{
+						text-transform: uppercase;
+						color: @heading;
+						display: block;
+						font-style: normal;
+					}
+					&::after{
+						margin: 15px 0;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 378px){
@@ -329,6 +351,20 @@
 					line-height: 1.6rem;
 					.cite{
 						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	.feedback{
+		&-item{
+			&-content{
+				font-size: 12px;
+				margin-left: 100px;
+				cite{
+					line-height: 1.5rem;
+					&::after{
+						margin: 10px 0;
 					}
 				}
 			}

@@ -479,7 +479,7 @@ section {
   background-size: cover;
 }
 .feedback-item {
-  height: 220px;
+  max-height: 220px;
 }
 .feedback-item-avatar {
   width: 110px;
@@ -509,7 +509,7 @@ section {
 .map {
   background: url(../img/bg/bg-map.jpg) center no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 .map-link {
@@ -538,7 +538,7 @@ section {
   display: block;
   width: 25px;
   height: 30px;
-  background: url(../img/pin.png) center no-repeat;
+  background: url(../img/icons/pin.png) center no-repeat;
   margin: 0px auto;
 }
 .blog .card {

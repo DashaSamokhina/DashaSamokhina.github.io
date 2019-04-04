@@ -132,7 +132,7 @@
     padding-top: 20px;
     height: 90px;
     width: 75px;
-    top: 180px;
+    top: 170px;
   }
 }
 @media (max-width: 575px) {
@@ -192,6 +192,24 @@
     width: 60px;
     top: 120px;
   }
+  .feedback-item-avatar {
+    width: 70px;
+  }
+  .feedback-item-content {
+    margin-left: 100px;
+  }
+  .feedback-item-content cite {
+    line-height: 2rem;
+  }
+  .feedback-item-content cite .name {
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    font-style: normal;
+  }
+  .feedback-item-content cite::after {
+    margin: 15px 0;
+  }
 }
 @media (max-width: 378px) {
   .main .btn {
@@ -209,5 +227,15 @@
   }
   .testimonial .carousel-item-content .cite {
     font-size: 20px;
+  }
+  .feedback-item-content {
+    font-size: 12px;
+    margin-left: 100px;
+  }
+  .feedback-item-content cite {
+    line-height: 1.5rem;
+  }
+  .feedback-item-content cite::after {
+    margin: 10px 0;
   }
 }
