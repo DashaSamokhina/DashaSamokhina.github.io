@@ -641,7 +641,7 @@ section {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../img/footer-socials.png) 50% 50% no-repeat;
+  background: url(../img/icons/footer-socials.png) 50% 50% no-repeat;
   vertical-align: middle;
 }
 .footer .subscribe .follow-us .facebook {
