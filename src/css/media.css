@@ -139,8 +139,9 @@
   .services .services-items .service-item:nth-child(5) {
     border-bottom: 1px solid #f8f8f8;
   }
-  .quote .carousel {
-    height: 200px;
+  .quote .carousel-item blockquote {
+    font-size: 16px;
+    line-height: 1.8rem;
   }
   .our-team .team-item p {
     margin-bottom: 0px;
@@ -215,8 +216,9 @@
   .main .btn {
     font-size: 0.8rem;
   }
-  .quote .carousel {
-    height: 250px;
+  .quote .carousel-item blockquote {
+    font-size: 14px;
+    line-height: 1.6rem;
   }
   .testimonial .carousel-item {
     height: 190px;

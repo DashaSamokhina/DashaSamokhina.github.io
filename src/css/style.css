@@ -343,7 +343,6 @@ section {
   font-style: italic;
   font-size: 18px;
   line-height: 2rem;
-  text-overflow: ellipsis;
 }
 .quote .carousel-item cite {
   font-family: 'Kaushan Script', cursive;
