@@ -685,16 +685,14 @@ section {
   font-weight: bold;
 }
 .footer .footer-blog-item {
-  height: 80px;
   margin-top: 32px;
 }
 .footer .footer-blog img {
-  float: left;
-}
-.footer .footer-blog-content {
-  padding-left: 145px;
+  max-width: 120px;
 }
 .footer .footer-blog-content .content {
+  margin: 0;
+  padding-top: 10px;
   color: #000000;
   text-transform: uppercase;
 }

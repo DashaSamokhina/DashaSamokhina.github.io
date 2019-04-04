@@ -18,6 +18,12 @@
   .blog .card .date {
     top: 100px;
   }
+  .footer .footer-blog-item {
+    margin-top: 17px;
+  }
+  .footer .footer-blog-content .content {
+    padding-top: 0;
+  }
 }
 @media (max-width: 991px) {
   section {
@@ -78,6 +84,10 @@
   }
   .testimonial .carousel-item-content {
     margin-top: 0;
+  }
+  .footer h4 {
+    text-align: center;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 767px) {
@@ -162,6 +172,36 @@
   .testimonial .carousel-item-content .cite {
     font-size: 22px;
   }
+  .footer {
+    padding: 40px 0;
+  }
+  .footer h4 {
+    line-height: 55px;
+  }
+  .footer .subscribe h1 {
+    font-size: 30px;
+  }
+  .footer .subscribe-content {
+    margin: 20px 0;
+  }
+  .footer-form {
+    margin-top: 20px;
+    width: 300px;
+  }
+  .footer-form .btn {
+    width: 100px;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .footer .footer-blog-content .content {
+    font-size: 10px;
+  }
+  .footer .footer-blog-content .date {
+    font-style: italic;
+  }
+  .footer .instagram-gallery {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 424px) {
   .main .carousel-indicators li p {
@@ -239,5 +279,20 @@
   }
   .feedback-item-content cite::after {
     margin: 10px 0;
+  }
+  .footer .subscribe .follow-us .google,
+  .footer .subscribe .follow-us .dribble,
+  .footer .subscribe .follow-us .tumblr {
+    display: none;
+  }
+  .footer-form {
+    width: 250px;
+  }
+  .footer-form input {
+    height: 30px;
+  }
+  .footer-form .btn {
+    width: 70px;
+    font-size: 8px;
   }
 }
