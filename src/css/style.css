@@ -128,6 +128,9 @@ section {
   text-decoration: none;
   border-bottom: 3px solid #fce38a;
 }
+.header .navbar-link_icon:hover {
+  border-bottom: none;
+}
 .header .navbar-icon {
   display: none;
   cursor: pointer;
@@ -645,35 +648,7 @@ section {
 }
 .footer .subscribe .follow-us .social {
   margin-left: 10px;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url(../img/icons/footer-socials.png) 50% 50% no-repeat;
-  vertical-align: middle;
-}
-.footer .subscribe .follow-us .facebook {
-  background-position: -5px -10px;
-}
-.footer .subscribe .follow-us .twitter {
-  background-position: -209px -9px;
-}
-.footer .subscribe .follow-us .instagram {
-  background-position: -245px -10px;
-}
-.footer .subscribe .follow-us .pinterest {
-  background-position: -68px -10px;
-}
-.footer .subscribe .follow-us .google {
-  background-position: -173px -10px;
-}
-.footer .subscribe .follow-us .youtube {
-  background-position: -101px -8px;
-}
-.footer .subscribe .follow-us .dribble {
-  background-position: -137px -10px;
-}
-.footer .subscribe .follow-us .tumblr {
-  background-position: -38px -10px;
+  color: #95e1d3;
 }
 .footer-form {
   margin-top: 40px;
