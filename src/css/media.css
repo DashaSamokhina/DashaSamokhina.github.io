@@ -60,6 +60,9 @@
   .main-content p {
     font-size: 4rem;
   }
+  .header .logo a {
+    font-size: 30px;
+  }
   .facts .fact-item {
     border: none;
   }

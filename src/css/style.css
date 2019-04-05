@@ -134,9 +134,16 @@ section {
   z-index: 17;
 }
 .header .logo {
-  font-weight: bold;
-  font-size: 30px;
   z-index: 17;
+}
+.header .logo a {
+  font-weight: bold;
+  font-size: 46px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header .logo a:hover {
+  color: #fce38a;
 }
 .heading {
   color: #000000;
