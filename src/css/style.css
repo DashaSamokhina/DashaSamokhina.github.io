@@ -86,7 +86,7 @@ section {
   color: #fce38a;
 }
 .header_fixed {
-  padding: 20px 10%;
+  padding: 0 10%;
   position: fixed;
   top: 0;
   left: 0;
